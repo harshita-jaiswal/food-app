@@ -1,0 +1,26 @@
+* {
+	&:focus {
+		outline: 0;
+	}
+}
+
+body {
+	background: #ffffff;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: subpixel-antialiased;
+	margin: 0;
+	padding: 0;
+
+	@media (max-width: 1000px) {
+		font-size: calc(12px + 0.4vw);
+	}
+}
+
+p,
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
